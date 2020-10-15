@@ -1,5 +1,7 @@
 {
   "name": "screen-jump-sample",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
