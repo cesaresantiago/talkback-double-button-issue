@@ -7,14 +7,14 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-label>With talkback enabled, slide right until you reach button. You'll hear the aria label dictated. Slide right again, and listen how it just says "Press me. Button. Double tap to activate". Gives the impression there are 2 buttons.</ion-label>
+
+<ion-list>
+  <ion-item>
+    <ion-button tabindex="0" [attr.aria-label]="'Testing button aria label'">
+      Press Me
+    </ion-button>
+  </ion-item>
+</ion-list>
 </ion-content>
